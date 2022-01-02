@@ -1,0 +1,4 @@
+{
+    "nic_music_api": "http://localhost:8000/api",
+    "nic_music": "http://localhost:8000"
+}

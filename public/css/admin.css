@@ -1,0 +1,119 @@
+.profile_category {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.profile_category h5 {
+    padding: 10px 20px;
+    background-color: #ff4865;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: max-content;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.profile_category h5 a {
+    color: #fefefe;
+}
+
+.admin_top_bar {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 0 7px 0 #eaeff4;
+    -moz-box-shadow: 0 0 7px 0 #eaeff4;
+    -webkit-box-shadow: 0 0 7px 0 #eaeff4;
+    position: relative;
+    border: 1px solid #ecf0f4;
+    background-color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+.admin_header {
+    border-bottom: 1px solid #eff2f5;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.btn_gr {
+    border: none;
+    color: #fefefe;
+    background-color: #61b832 !important;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.btn_gr:hover{
+    color: #fefefe;
+}
+
+.btn_wa {
+    border: none;
+    color: #fefefe;
+    background-color: #FFC425 !important;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.btn_wa:hover{
+    color: #fefefe;
+}
+
+.admin_header span {
+    color: #ff4865 !important;
+    font-size: 20px;
+}
+
+.admin_top_bar ul {
+    list-style: none;
+}
+
+.admin_top_bar li {
+}
+
+.user_img {
+    width: 50px;
+}
+
+.user_img img {
+    width: 100%;
+}
+
+.w_top_album {
+    justify-content: unset !important;
+}
+
+.weekly_left_album {
+    width: 25% !important;
+    justify-content: end;
+    display: flex;
+}
+
+.btn_edit {
+    background-color: #588ed3 !important;
+}
+
+[data-reach-dialog-overlay] {
+    top: 70px;
+}
+
+.form-group select {
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #1a1818;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ff4865;
+}
